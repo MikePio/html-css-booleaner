@@ -28,10 +28,14 @@ main, footer{
   padding-right: 7px;
 }
 
+/* ! MODIFICATO IN style2.css */
 .container{
+  padding: 0 15% 0 15%;
+  padding-top: 180px;
 }
 
 
+/* ! MODIFICATO IN style2.css */
 /* HEADER */
 header {
   width: 100%;
@@ -39,6 +43,8 @@ header {
   background-image: url(../img/pattern.png);
   background-color: #4ea0ff;
   background-position: top;
+  background-attachment: fixed;
+  position: fixed;
 }
 
 .logo{
@@ -118,5 +124,3 @@ padding: 5px;
 footer > *{ /*ad ogni elemento*/
   padding-top: 5px;
 }
-
-
