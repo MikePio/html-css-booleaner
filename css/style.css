@@ -2,51 +2,84 @@
 * {
   padding: 0;
   margin: 0;
-
 }
 
-body{
-  
+div{
+  /* padding-left: 7px; */
+}
+
+img{
+  /* padding-left: 7px; */
+}
+
+ul{
+  margin: 20px;
+}
+
+h1{
+
+  padding-top: 10px;
+  font-size: 60px;
 }
 
 
+main, footer{
+  padding-left: 7px;
+}
 
+.container{
+  /* padding-left: 7px; */
+}
 
 
 /* HEADER */
 header {
   width: 100%;
-  height: 140px;
+  height: 180px;
   background-image: url(../img/pattern.png);
   background-color: #4ea0ff;
-  background-position: center;
-}
-
-.container-header{
-
+  background-position: top;
 }
 
 .logo{
+  padding-left: 7px;
   width: 250px;
   height: 250px;
-  position: absolute;
-  top: -20px;
 }
-
 
 
 
 /* MAIN */
+.grey-text{
+  color: #909090;
+  /* padding-left: 7px; */
+}
 
+.grey-text>span {
+  color: #26abe5;
+}
 
+#date{
+  padding-bottom: 20px;
+}
 
+.biography {
+  font-size: 13px;
+}
 
+.description {
+  padding: 10px;
+}
 
-
-
+.description>span {
+  background-color: yellow;
+}
 
 
 /* FOOTER */
+footer > *{
+  padding-top: 5px;
+}
 
 
 
