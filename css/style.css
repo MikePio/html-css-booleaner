@@ -13,7 +13,7 @@ img{
 }
 
 ul{
-  margin: 20px;
+  margin: 15px;
 }
 
 h1{
@@ -25,6 +25,7 @@ h1{
 
 main, footer{
   padding-left: 7px;
+  padding-right: 7px;
 }
 
 .container{
@@ -52,7 +53,6 @@ header {
 /* MAIN */
 .grey-text{
   color: #909090;
-  /* padding-left: 7px; */
 }
 
 .grey-text>span {
@@ -68,7 +68,7 @@ header {
 }
 
 .description {
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .description>span {
@@ -76,8 +76,47 @@ header {
 }
 
 
+/* tabella */
+table{
+  border-collapse: collapse;
+  padding-right: 7px;
+}
+
+tr{
+}
+
+th{
+  color: #ffffff;
+  text-align: left;
+}
+
+
+th, td {
+  width: 28%;
+
+}
+
+thead{
+  background-color: #20a9e5;
+}
+
+.tr-sky{
+  background-color: #b1e5f2;
+
+}
+
+.tr-white{
+  background-color: #ffffff;
+
+}
+
+td{
+padding: 5px;
+}
+
+
 /* FOOTER */
-footer > *{
+footer > *{ /*ad ogni elemento*/
   padding-top: 5px;
 }
 
