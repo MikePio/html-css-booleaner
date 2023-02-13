@@ -1,0 +1,109 @@
+/* GENERALE */
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  
+}
+
+
+
+
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 140px;
+  background-image: url(../img/pattern.png);
+  background-color: #4ea0ff;
+  background-position: center;
+}
+
+.container-header{
+
+}
+
+.logo{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: -20px;
+}
+
+
+
+
+/* MAIN */
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
