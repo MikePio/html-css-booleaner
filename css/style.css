@@ -90,9 +90,9 @@ th{
 }
 
 
-th, td {
+/* th, td { */
+th { /* td prende le dimensioni di th quindi si può modificare solo il th*/
   width: 28%;
-
 }
 
 thead{
@@ -115,8 +115,22 @@ padding: 5px;
 
 
 /* FOOTER */
-footer > *{ /*ad ogni elemento*/
-  padding-top: 5px;
+.footer-image{
+  width: 250px;
+  height: 150px;
+  color: #ffffff;
+  padding: 20px;
+  }
+  
+#monitor{
+  background-image: url(../img/monitor.jpg);
+  margin-top: 10px;
+  margin-bottom: 2px;
+
 }
 
-
+#graph{
+  background-image: url(../img/graph.jpg);
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
