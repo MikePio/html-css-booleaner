@@ -5,11 +5,9 @@
 }
 
 div{
-  /* padding-left: 7px; */
 }
 
 img{
-  /* padding-left: 7px; */
 }
 
 ul{
@@ -47,10 +45,12 @@ header {
   position: fixed;
 }
 
+/* ! MODIFICATO IN style2.css */
 .logo{
-  padding-left: 7px;
+  /* padding-left: 7px; */
   width: 250px;
   height: 250px;
+  padding: 0 15% 0 15%;
 }
 
 
